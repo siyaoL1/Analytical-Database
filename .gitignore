@@ -1,0 +1,53 @@
+student_outputs
+generated_data
+
+# Object files
+obj/*
+*.o
+*.ko
+*.obj
+*.elf
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects
+*.so
+*.so.*
+
+# Executables
+*.out
+bin/*
+server
+client
+.deps
+
+# ide stuff
+tags
+Tags
+*.swp
+
+# other
+r*hs # vtune output
+.deps # makefile temps
+status.current_container_id
+
+# database
+r*hs # vtune output
+*.db
+*.table
+*.col
+*.data
+
+# macOS
+*.DS_Store
+*.err
+*.dsl
+*.exp
+*.csv
+status.current_container_id
+*.csv
+*.exp
+*.histogram
+*.sorted_index
